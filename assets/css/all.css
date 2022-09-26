@@ -1,0 +1,53 @@
+body::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(1.0, rgb(78, 115, 223)), color-stop(1.0, rgb(103, 119, 239)), color-stop(1.0, rgb(103, 119, 239)));
+}
+
+.desc {
+    cursor: pointer;
+}
+
+
+div.ColVis_collectionBackground {
+    background-color: black;
+    /*z-index: 1100;*/
+    z-index: 11000;
+}
+
+div.ColVis_collection {
+    position: relative;
+    width: 150px;
+    background-color: #f3f3f3;
+    padding: 3px;
+    border: 1px solid #ccc;
+    /*z-index: 1102;*/
+    z-index: 11020
+}
+
+div.ColVis_collection button.ColVis_Button {
+    background-color: white;
+    width: 100%;
+    float: none;
+    margin-bottom: 2px;
+}
+
+div.ColVis_catcher {
+    position: absolute;
+    /*z-index: 1101;*/
+    z-index: 11010;
+}
+
+.fFilter{
+    width: 500px;
+}
+

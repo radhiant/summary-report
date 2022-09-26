@@ -1,0 +1,58 @@
+{
+  "_from": "bootstrap4-chosen",
+  "_id": "bootstrap4-chosen@1.0.0-alpha.1",
+  "_inBundle": false,
+  "_integrity": "sha512-WlIYHxFoPb1iWe1C/D1xZd6GncNOTSDrm6gYdr76iH8ztvpEnxZmAc8mz3g4r65KX6+mwt9v1vgYAMIGI54Pkw==",
+  "_location": "/bootstrap4-chosen",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "bootstrap4-chosen",
+    "name": "bootstrap4-chosen",
+    "escapedName": "bootstrap4-chosen",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bootstrap4-chosen/-/bootstrap4-chosen-1.0.0-alpha.1.tgz",
+  "_shasum": "23ea0f33a5a7b99a0155cbea1b17bb86f4fe469b",
+  "_spec": "bootstrap4-chosen",
+  "_where": "C:\\Users\\BKU",
+  "bugs": {
+    "url": "https://github.com/pascalebeier/bootstrap4-chosen/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "An alternate stylesheet for Chosen that integrates with Bootstrap 4.",
+  "devDependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "cross-env": "^5.1.0",
+    "laravel-mix": "^1.5.1"
+  },
+  "homepage": "https://github.com/pascalebeier/bootstrap4-chosen",
+  "keywords": [
+    "bootstrap",
+    "bootstrap4",
+    "chosen",
+    "bootstrap4-chosen"
+  ],
+  "license": "MIT",
+  "name": "bootstrap4-chosen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pascalebeier/bootstrap4-chosen.git"
+  },
+  "scripts": {
+    "dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch-poll": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --watch-poll --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "version": "1.0.0-alpha.1"
+}
